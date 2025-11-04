@@ -1,0 +1,15 @@
+[package]
+name = "cbor-nan-bstr"
+version = "0.1.0"
+edition = "2024"
+description = "Reference implementation of draft-mcnally-cbor-nan-bstr."
+
+[dependencies]
+dcbor = "^0.23.2"
+hex = "^0.4.3"
+thiserror = "^2.0"
+bc-tags = "^0.8.0"
+
+[dev-dependencies]
+hex-literal = "^0.4.1"
+indoc = "^2.0.0"
