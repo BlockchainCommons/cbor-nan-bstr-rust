@@ -1,3 +1,4 @@
+/// Error types for cbor-nan-bstr
 #[derive(Debug, thiserror::Error)]
 pub enum Error {
     #[error("CBOR error ({0})")]
@@ -10,6 +11,7 @@ pub enum Error {
     NotANan,
 }
 
+/// A specialized `Result` type for cbor-nan-bstr operations.
 pub type Result<T> = std::result::Result<T, Error>;
 
 impl From<Error> for String {
