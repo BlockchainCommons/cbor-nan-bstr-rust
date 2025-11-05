@@ -149,11 +149,8 @@ See [Blockchain Commons' Development Phases](https://github.com/BlockchainCommon
 
 ### 0.1.0 - November 4, 2025
 
-- Initial reference implementation of draft-mcnally-cbor-nan-bstr
-- Support for all four IEEE-754 binary interchange formats (binary16, binary32, binary64, binary128)
-- Full NaN attribute inspection (sign, quiet/signaling, payload)
-- Integration with dcbor for tagged encoding/decoding
-- Comprehensive validation of NaN bit patterns
+- Initial release.
+- Reference implementation of draft-mcnally-cbor-nan-bstr.
 
 ## Financial Support
 
