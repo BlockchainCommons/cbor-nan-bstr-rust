@@ -3,12 +3,19 @@ name = "cbor-nan-bstr"
 version = "0.1.0"
 edition = "2024"
 description = "Reference implementation of draft-mcnally-cbor-nan-bstr."
+authors = ["Blockchain Commons"]
+repository = "https://github.com/BlockchainCommons/cbor-nan-bstr-rust"
+readme = "README.md"
+license = "BSD-2-Clause-Patent"
+documentation = "https://docs.rs/cbor-nan-bstr"
+keywords = ["encoding", "cbor", "binary", "format", "ieee754"]           # Up to five
+categories = ["data-structures", "encoding"]                             # https://crates.io/category_slugs
 
 [dependencies]
 dcbor = "^0.23.2"
 hex = "^0.4.3"
 thiserror = "^2.0"
-bc-tags = "^0.8.0"
+bc-tags = "^0.8.1"
 
 [dev-dependencies]
 hex-literal = "^0.4.1"
